@@ -27,20 +27,23 @@ Let's put into practice everything learned in this lesson by working on a practi
 5.  Merge "feature-b" into main. While you were working on your branch, other devs may have merged their work into the main branch, so before merging your code, you should try to get the latest version.
 
     a. What commands would you use and why?
-    -git pull origin main
-    -git rebase main
+
+    - git pull origin main
+    - git rebase main
 
     b. What merge method would you use and why?
-    -git checkout main
-    -git merge feature-b
+
+    - git checkout main
+    - git merge feature-b
 
 6.  Now you want to go back to continue with the code stashed in step 3.
 
     a. Before getting back to your previous work, update your branch
 
     b. What merge method would you use and why?
-    -git checkout feature-a
-    -git rebase main
+
+    - git checkout feature-a
+    - git rebase main
 
     c. Conflicts happened? Solve them and prefer your code.
     Yes
