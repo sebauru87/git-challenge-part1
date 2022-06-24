@@ -28,13 +28,17 @@ Let's put into practice everything learned in this lesson by working on a practi
 
     a. What commands would you use and why?
 
-    - git pull origin main
-    - git rebase main
+    ```bash
+    $ git pull origin main
+    $ git rebase main
+    ```
 
     b. What merge method would you use and why?
 
-    - git checkout main
-    - git merge feature-b
+    ```bash
+    $ git checkout main
+    $ git merge feature-b
+    ```
 
 6.  Now you want to go back to continue with the code stashed in step 3.
 
@@ -42,8 +46,10 @@ Let's put into practice everything learned in this lesson by working on a practi
 
     b. What merge method would you use and why?
 
-    - git checkout feature-a
-    - git rebase main
+    ```bash
+    $ git checkout feature-a
+    $ git rebase main
+    ```
 
     c. Conflicts happened? Solve them and prefer your code.
     Yes
